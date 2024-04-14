@@ -1,0 +1,37 @@
+.wrapper{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh; /*현재 보고있는 높이의 100%*/
+	width: 100vw;	/*현재 보고있는 가로크기의 100%*/
+
+	flex-direction: column;
+	gap: 20px
+	
+}
+.accordion{
+	width: 500px;
+}
+.item{
+	background: aqua;
+	padding: 10px 20px;
+	margin-top :10px
+}
+.title{
+	display: flex;
+	color: white;
+	justify-content: space-between;
+	align-items: center;
+	cursor: pointer;
+}
+.content{
+	color: white;
+	height: auto;
+}
+.wrapper button{
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	background: antiquewhite;
+	color: white;
+}
